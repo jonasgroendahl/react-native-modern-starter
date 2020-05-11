@@ -25,13 +25,18 @@ const Navigation = () => {
     <NavigationContainer>
       <RootStack.Navigator
         initialRouteName="Welcome"
-        screenOptions={{
-          headerLeft: ({onPress, canGoBack}) =>
-            canGoBack ? (
-              <Button onPress={onPress} transparent>
-                <Icon name="arrowleft" type="AntDesign" />
-              </Button>
-            ) : null,
+        screenOptions={({route}) => {
+          const headerName = route.name;
+
+          return {
+            headerLeft: ({onPress, canGoBack}) =>
+              canGoBack ? (
+                <Button onPress={onPress} transparent>
+                  <Icon name="arrowleft" type="AntDesign" />
+                </Button>
+              ) : null,
+            headerTitle: headerName,
+          };
         }}>
         <RootStack.Screen component={TabNavigation} name="Home" />
         <RootStack.Screen

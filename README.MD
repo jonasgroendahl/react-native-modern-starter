@@ -8,8 +8,8 @@ This is a starter kit for those experienced React Native developers who is looki
 - Global Context Provider
 - Language Context Provider setup
 - Logical folder structure
-- Welcome, SignIn, SignOut screen, Home, Profile screens
-- Third party packages such as `react-native-image-picker` that is used in most projects
+- Welcome, SignIn, SignUp screen, Home, Profile screens
+- Third party packages such as `react-native-image-picker`, `async-storage` that is used in most projects
 
 # Get started
 
