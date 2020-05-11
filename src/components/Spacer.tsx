@@ -2,7 +2,7 @@ import React from 'react';
 import {View} from 'react-native';
 
 type Props = {
-  variant: number;
+  variant?: number;
 };
 
 const Spacer: React.FC<Props> = ({variant = 1}) => {
