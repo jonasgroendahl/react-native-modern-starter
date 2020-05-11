@@ -1,5 +1,5 @@
 import React from 'react';
-import {Content, Text} from 'native-base';
+import {Content} from 'native-base';
 import {CompositeNavigationProp} from '@react-navigation/native';
 import {BottomTabNavigationProp} from '@react-navigation/bottom-tabs';
 import {TabNavigationParamList} from '../router/TabNavigation';

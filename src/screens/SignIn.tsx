@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  Content,
-  Container,
-  Form,
-  Item,
-  Input,
-  Icon,
-  Button,
-  Text,
-} from 'native-base';
+import {Content, Container, Form, Item, Input, Icon, Button} from 'native-base';
 import {TextInputStyles} from '../styles/TextInputStyles';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../router/Navigation';

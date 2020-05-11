@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  Container,
-  Input,
-  Form,
-  Item,
-  Content,
-  Button,
-  Text,
-  Icon,
-} from 'native-base';
+import {Container, Input, Form, Item, Content, Button, Icon} from 'native-base';
 import {StyleSheet} from 'react-native';
 import Or from '../components/Or';
 import GoogleButton from '../components/GoogleButton';
