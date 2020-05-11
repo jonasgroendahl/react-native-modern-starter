@@ -13,7 +13,7 @@ This is a starter kit for those experienced React Native developers who is looki
 
 # Get started
 
-Run the following commands and get started!
+Run the following commands to get started!
 
 ```
 $    yarn

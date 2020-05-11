@@ -1,10 +1,11 @@
 import React from 'react';
-import {Container, Content, Button, Text} from 'native-base';
+import {Container, Content, Button} from 'native-base';
 import {StyleSheet} from 'react-native';
 import WelcomeCarousel from '../components/WelcomeCarousel';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../router/Navigation';
 import {CommonActions} from '@react-navigation/native';
+import Typography from '../components/Typography';
 
 type Props = {
   navigation: StackNavigationProp<RootStackParamList, 'Welcome'>;
@@ -33,13 +34,13 @@ const Welcome: React.FC<Props> = ({navigation}) => {
       <Content padder contentContainerStyle={styles.content}>
         <WelcomeCarousel />
         <Button style={styles.button} onPress={handleSignUp}>
-          <Text>Sign up</Text>
+          <Typography>Sign up</Typography>
         </Button>
         <Button style={styles.button} bordered onPress={handleLogIn}>
-          <Text>Log in</Text>
+          <Typography>Log in</Typography>
         </Button>
         <Button style={styles.button} transparent onPress={handleSkip}>
-          <Text>Skip for now</Text>
+          <Typography>Skip for now</Typography>
         </Button>
       </Content>
     </Container>

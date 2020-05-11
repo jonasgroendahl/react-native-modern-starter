@@ -13,6 +13,7 @@ import {TextInputStyles} from '../styles/TextInputStyles';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../router/Navigation';
 import {CommonActions} from '@react-navigation/native';
+import Typography from '../components/Typography';
 
 type Props = {
   navigation: StackNavigationProp<RootStackParamList, 'SignIn'>;
@@ -43,7 +44,7 @@ const SignIn: React.FC<Props> = ({navigation}) => {
             <Icon active name="eye-off" type="Feather" />
           </Item>
           <Button full onPress={handleLogIn}>
-            <Text>Log in</Text>
+            <Typography>Log in</Typography>
           </Button>
         </Form>
       </Content>

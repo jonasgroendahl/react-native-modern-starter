@@ -1,10 +1,11 @@
 import React from 'react';
-import {Content, H1} from 'native-base';
+import {Content} from 'native-base';
+import Typography from '../components/Typography';
 
 const Profile: React.FC = () => {
   return (
     <Content>
-      <H1>Profile</H1>
+      <Typography>Profile</Typography>
     </Content>
   );
 };

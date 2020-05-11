@@ -3,6 +3,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
 import {Icon} from 'native-base';
 import Profile from '../screens/Profile';
+import {baseFont} from '../components/Typography';
 
 export type TabNavigationParamList = {
   Home: undefined;
@@ -39,6 +40,9 @@ const TabNavigation: React.FC = () => {
       tabBarOptions={{
         activeTintColor: 'tomato',
         inactiveTintColor: 'gray',
+        labelStyle: {
+          fontFamily: baseFont,
+        },
       }}>
       <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="Profile" component={Profile} />

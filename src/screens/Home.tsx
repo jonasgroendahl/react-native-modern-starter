@@ -5,6 +5,7 @@ import {BottomTabNavigationProp} from '@react-navigation/bottom-tabs';
 import {TabNavigationParamList} from '../router/TabNavigation';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../router/Navigation';
+import Typography from '../components/Typography';
 
 type ProfileScreenNavigationProp = CompositeNavigationProp<
   BottomTabNavigationProp<TabNavigationParamList, 'Home'>,
@@ -18,7 +19,9 @@ type Props = {
 const Home: React.FC<Props> = () => {
   return (
     <Content>
-      <Text>Hi</Text>
+      <Typography variant="title">Hey</Typography>
+      <Typography variant="subheader">Hey</Typography>
+      <Typography>Hey</Typography>
     </Content>
   );
 };

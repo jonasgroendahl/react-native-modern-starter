@@ -49,7 +49,7 @@ const SignUp: React.FC<Props> = ({navigation}) => {
             <Icon active name="eye-off" type="Feather" />
           </Item>
           <Button full onPress={handleSignUp}>
-            <Text>Sign Up</Text>
+            <Typography>Sign Up</Typography>
           </Button>
           <Or />
           <GoogleButton />
@@ -58,9 +58,9 @@ const SignUp: React.FC<Props> = ({navigation}) => {
             By signing up you accept the Terms of Service and Privacy Policy.
           </Typography>
           <Center style={styles.center}>
-            <Text>Already have an account?</Text>
+            <Typography>Already have an account?</Typography>
             <Button transparent>
-              <Text>Log in</Text>
+              <Typography>Log in</Typography>
             </Button>
           </Center>
         </Form>

@@ -6,6 +6,7 @@ import SignUp from '../screens/SignUp';
 import TabNavigation from './TabNavigation';
 import SignIn from '../screens/SignIn';
 import {Button, Icon} from 'native-base';
+import {baseFont} from '../components/Typography';
 
 export type RootStackParamList = {
   Home: undefined;
@@ -36,6 +37,9 @@ const Navigation = () => {
                 </Button>
               ) : null,
             headerTitle: headerName,
+            headerTitleStyle: {
+              fontFamily: baseFont,
+            },
           };
         }}>
         <RootStack.Screen component={TabNavigation} name="Home" />
