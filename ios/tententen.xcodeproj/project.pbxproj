@@ -45,6 +45,7 @@
 		B83F62C8A8EE4B5F97579F04 /* Cera-Pro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 391C16DBE96F4E49AD4C2082 /* Cera-Pro-Light.otf */; };
 		1AD1D45303DE423D89319E6A /* Cera-Pro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 503DBBEEA04B4324AA310D12 /* Cera-Pro-Medium.otf */; };
 		375669A3BBCA4E69B5BD9999 /* Cera-Pro-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 130B53D7C85E4037B5DB10BC /* Cera-Pro-Regular-Italic.otf */; };
+		364FF0A0431242BD80B74B31 /* Cera-Pro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 943A3F5F6D1C41B09015AAD6 /* Cera-Pro-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 		391C16DBE96F4E49AD4C2082 /* Cera-Pro-Light.otf */ = {isa = PBXFileReference; name = "Cera-Pro-Light.otf"; path = "../assets/fonts/Cera-Pro-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		503DBBEEA04B4324AA310D12 /* Cera-Pro-Medium.otf */ = {isa = PBXFileReference; name = "Cera-Pro-Medium.otf"; path = "../assets/fonts/Cera-Pro-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		130B53D7C85E4037B5DB10BC /* Cera-Pro-Regular-Italic.otf */ = {isa = PBXFileReference; name = "Cera-Pro-Regular-Italic.otf"; path = "../assets/fonts/Cera-Pro-Regular-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		943A3F5F6D1C41B09015AAD6 /* Cera-Pro-Regular.otf */ = {isa = PBXFileReference; name = "Cera-Pro-Regular.otf"; path = "../assets/fonts/Cera-Pro-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +278,7 @@
 				391C16DBE96F4E49AD4C2082 /* Cera-Pro-Light.otf */,
 				503DBBEEA04B4324AA310D12 /* Cera-Pro-Medium.otf */,
 				130B53D7C85E4037B5DB10BC /* Cera-Pro-Regular-Italic.otf */,
+				943A3F5F6D1C41B09015AAD6 /* Cera-Pro-Regular.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				B83F62C8A8EE4B5F97579F04 /* Cera-Pro-Light.otf in Resources */,
 				1AD1D45303DE423D89319E6A /* Cera-Pro-Medium.otf in Resources */,
 				375669A3BBCA4E69B5BD9999 /* Cera-Pro-Regular-Italic.otf in Resources */,
+				364FF0A0431242BD80B74B31 /* Cera-Pro-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,7 +4,7 @@ import Typography from '../components/Typography';
 
 const Profile: React.FC = () => {
   return (
-    <Content>
+    <Content padder>
       <Typography>Profile</Typography>
     </Content>
   );

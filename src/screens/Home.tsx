@@ -18,10 +18,10 @@ type Props = {
 
 const Home: React.FC<Props> = () => {
   return (
-    <Content>
-      <Typography variant="title">Hey</Typography>
-      <Typography variant="subheader">Hey</Typography>
-      <Typography>Hey</Typography>
+    <Content padder>
+      <Typography variant="title">React native modern template</Typography>
+      <Typography variant="subheader">saves</Typography>
+      <Typography>a lot of time.</Typography>
     </Content>
   );
 };

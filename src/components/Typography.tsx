@@ -3,7 +3,7 @@ import {Text} from 'native-base';
 import {StyleSheet, TextProps, Platform} from 'react-native';
 
 export const baseFont =
-  Platform.OS === 'ios' ? 'CeraPro-Light' : 'Cera-Pro-Light';
+  Platform.OS === 'ios' ? 'CeraPro-Regular' : 'Cera-Pro-Regular';
 
 type TypographyVariant = 'caption' | 'p' | 'subheader' | 'title';
 

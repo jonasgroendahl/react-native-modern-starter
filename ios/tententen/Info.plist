@@ -87,6 +87,7 @@
 		<string>Cera-Pro-Light.otf</string>
 		<string>Cera-Pro-Medium.otf</string>
 		<string>Cera-Pro-Regular-Italic.otf</string>
+		<string>Cera-Pro-Regular.otf</string>
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>$(PRODUCT_NAME) would like access to your photo gallery</string>

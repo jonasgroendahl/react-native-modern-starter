@@ -27,7 +27,7 @@ const Navigation = () => {
       <RootStack.Navigator
         initialRouteName="Welcome"
         screenOptions={({route}) => {
-          const headerName = route.name;
+          const headerName = route.state?.routes[route.state.index].name;
 
           return {
             headerLeft: ({onPress, canGoBack}) =>

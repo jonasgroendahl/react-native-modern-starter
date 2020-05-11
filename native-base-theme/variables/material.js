@@ -274,7 +274,7 @@ export default {
   // Other
   borderRadiusBase: 2,
   borderWidth: 1 / PixelRatio.getPixelSizeForLayoutSize(1),
-  contentPadding: 30,
+  contentPadding: 15,
   dropdownLinkColor: '#414142',
   inputLineHeight: 24,
   deviceWidth,
