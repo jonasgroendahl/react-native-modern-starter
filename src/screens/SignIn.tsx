@@ -10,23 +10,20 @@ type Props = {
   navigation: StackNavigationProp<RootStackParamList, 'SignIn'>;
 };
 
+const reset = CommonActions.reset({
+  index: 0,
+  routes: [{name: 'Home'}],
+});
+
 const SignIn: React.FC<Props> = ({navigation}) => {
   const handleLogIn = () => {
-    navigation.dispatch(
-      CommonActions.reset({
-        index: 1,
-        routes: [{name: 'Home'}],
-      }),
-    );
+    navigation.dispatch(reset);
   };
 
   return (
     <Container>
       <Content padder>
         <Form>
-          <Item regular style={TextInputStyles.input}>
-            <Input placeholder="Full name" />
-          </Item>
           <Item regular style={TextInputStyles.input}>
             <Input placeholder="Email" keyboardType="email-address" />
           </Item>

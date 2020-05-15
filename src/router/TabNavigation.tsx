@@ -4,6 +4,7 @@ import Home from '../screens/Home';
 import {Icon} from 'native-base';
 import Profile from '../screens/Profile';
 import {baseFont} from '../components/Typography';
+import Colors from '../utils/Colors';
 
 export type TabNavigationParamList = {
   Home: undefined;
@@ -38,7 +39,7 @@ const TabNavigation: React.FC = () => {
     <Tab.Navigator
       screenOptions={screenOptions}
       tabBarOptions={{
-        activeTintColor: 'tomato',
+        activeTintColor: Colors.brandPrimary,
         inactiveTintColor: 'gray',
         labelStyle: {
           fontFamily: baseFont,

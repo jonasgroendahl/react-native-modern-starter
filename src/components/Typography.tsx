@@ -9,6 +9,7 @@ type TypographyVariant = 'caption' | 'p' | 'subheader' | 'title';
 
 interface Props extends TextProps {
   variant?: TypographyVariant;
+  note?: boolean;
 }
 
 const Typography: React.FC<Props> = ({children, variant = 'p'}) => {

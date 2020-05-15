@@ -11,6 +11,11 @@ type Props = {
   navigation: StackNavigationProp<RootStackParamList, 'Welcome'>;
 };
 
+const reset = {
+  index: 0,
+  routes: [{name: 'Home'}],
+};
+
 const Welcome: React.FC<Props> = ({navigation}) => {
   const handleSignUp = () => {
     navigation.navigate('SignUp');
@@ -21,12 +26,7 @@ const Welcome: React.FC<Props> = ({navigation}) => {
   };
 
   const handleSkip = () => {
-    navigation.dispatch(
-      CommonActions.reset({
-        index: 1,
-        routes: [{name: 'Home'}],
-      }),
-    );
+    navigation.dispatch(CommonActions.reset(reset));
   };
 
   return (
