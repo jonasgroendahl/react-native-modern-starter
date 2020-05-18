@@ -13,6 +13,7 @@
     "@react-native-community/async-storage": "^1.10.0",
     "@react-native-community/masked-view": "^0.1.9",
     "@react-navigation/bottom-tabs": "^5.2.7",
+    "@react-navigation/drawer": "^5.7.5",
     "@react-navigation/native": "^5.1.6",
     "@react-navigation/stack": "^5.2.11",
     "native-base": "^2.13.12",
