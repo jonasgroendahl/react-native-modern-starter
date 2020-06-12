@@ -18,6 +18,8 @@ There are 2 options for navigation depending on your use case:
 1) A basic setup with Tabs
 2) More advanced setup with the same as above + modal and drawer
 
+![alt text](https://i.imgur.com/cdoJX88.png "Instructions")
+
 Reference the Navigation.tsx that you'd like to use in `App.tsx`. Look in the `router`folder to get an overview.
 
 # Get started
