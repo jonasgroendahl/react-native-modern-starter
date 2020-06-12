@@ -5,8 +5,8 @@ import Welcome from '../screens/Welcome';
 import SignUp from '../screens/SignUp';
 import TabNavigation from './TabNavigation';
 import SignIn from '../screens/SignIn';
-import {Button, Icon} from 'native-base';
-import {baseFont} from '../components/Typography';
+import {Button} from 'react-native';
+import Icon from 'react-native-vector-icons/AntDesign';
 
 export type RootStackParamList = {
   Home: undefined;
@@ -33,13 +33,10 @@ const Navigation = () => {
             headerLeft: ({onPress, canGoBack}) =>
               canGoBack ? (
                 <Button onPress={onPress} transparent>
-                  <Icon name="arrowleft" type="AntDesign" />
+                  <Icon name="arrowleft" />
                 </Button>
               ) : null,
             headerTitle: headerName,
-            headerTitleStyle: {
-              fontFamily: baseFont,
-            },
           };
         }}>
         <RootStack.Screen component={TabNavigation} name="Home" />

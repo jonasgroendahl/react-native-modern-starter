@@ -1,14 +1,14 @@
 import React from 'react';
-import Divider from './Divider';
-import {Text, View} from 'native-base';
-import {StyleSheet} from 'react-native';
+import {Divider} from 'react-native-paper';
+import {StyleSheet, View} from 'react-native';
+import Typography from './Typography';
 
 const Or: React.FC = () => {
   return (
     <View style={styles.or}>
-      <Divider />
-      <Text style={styles.text}>or</Text>
-      <Divider />
+      <Divider style={styles.divider} />
+      <Typography style={styles.text}>Or</Typography>
+      <Divider style={styles.divider} />
     </View>
   );
 };
@@ -21,6 +21,9 @@ const styles = StyleSheet.create({
   },
   text: {
     marginHorizontal: 10,
+  },
+  divider: {
+    flex: 1,
   },
 });
 export default Or;

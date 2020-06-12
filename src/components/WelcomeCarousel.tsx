@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 2,
   },
   imgWrapper: {
-    top: 50,
+    top: 0,
     position: 'absolute',
     justifyContent: 'center',
     alignItems: 'center',

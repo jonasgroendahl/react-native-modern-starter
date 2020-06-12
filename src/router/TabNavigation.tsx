@@ -1,9 +1,8 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
-import {Icon} from 'native-base';
+import Icon from 'react-native-vector-icons/AntDesign';
 import Profile from '../screens/Profile';
-import {baseFont} from '../components/Typography';
 import Colors from '../utils/Colors';
 
 export type TabNavigationParamList = {
@@ -41,9 +40,6 @@ const TabNavigation: React.FC = () => {
       tabBarOptions={{
         activeTintColor: Colors.brandPrimary,
         inactiveTintColor: 'gray',
-        labelStyle: {
-          fontFamily: baseFont,
-        },
       }}>
       <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="Profile" component={Profile} />

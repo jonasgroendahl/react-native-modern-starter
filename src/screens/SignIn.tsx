@@ -1,10 +1,10 @@
 import React from 'react';
-import {Content, Container, Form, Item, Input, Icon, Button} from 'native-base';
-import {TextInputStyles} from '../styles/TextInputStyles';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../router/Navigation';
 import {CommonActions} from '@react-navigation/native';
 import Typography from '../components/Typography';
+import {TextInput, Button} from 'react-native-paper';
+import ScrollableContent from '../components/Content';
 
 type Props = {
   navigation: StackNavigationProp<RootStackParamList, 'SignIn'>;
@@ -21,22 +21,13 @@ const SignIn: React.FC<Props> = ({navigation}) => {
   };
 
   return (
-    <Container>
-      <Content padder>
-        <Form>
-          <Item regular style={TextInputStyles.input}>
-            <Input placeholder="Email" keyboardType="email-address" />
-          </Item>
-          <Item regular style={TextInputStyles.input}>
-            <Input placeholder="Password" secureTextEntry={true} />
-            <Icon active name="eye-off" type="Feather" />
-          </Item>
-          <Button full onPress={handleLogIn}>
-            <Typography>Log in</Typography>
-          </Button>
-        </Form>
-      </Content>
-    </Container>
+    <ScrollableContent>
+      <TextInput placeholder="Email" keyboardType="email-address" />
+      <TextInput placeholder="Password" secureTextEntry={true} />
+      <Button mode="contained" onPress={handleLogIn}>
+        <Typography>Log in</Typography>
+      </Button>
+    </ScrollableContent>
   );
 };
 

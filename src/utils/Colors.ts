@@ -1,3 +1,4 @@
 export default {
-  brandPrimary: '#3F51B5',
+  brandPrimary: '#3498db',
+  helper: 'rgba(0, 0, 0, 0.6)',
 };

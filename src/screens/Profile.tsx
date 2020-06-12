@@ -1,12 +1,12 @@
 import React from 'react';
-import {Content} from 'native-base';
 import Typography from '../components/Typography';
+import {View} from 'react-native';
 
 const Profile: React.FC = () => {
   return (
-    <Content padder>
+    <View>
       <Typography>Profile</Typography>
-    </Content>
+    </View>
   );
 };
 
