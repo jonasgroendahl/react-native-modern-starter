@@ -20,7 +20,7 @@ There are 2 options for navigation depending on your use case:
 
 ![alt text](https://i.imgur.com/cdoJX88.png "Instructions")
 
-Reference the Navigation.tsx that you'd like to use in `App.tsx`. Look in the `router`folder to get an overview.
+Reference the Navigation.tsx that you'd like to use in `App.tsx` and delete the other one. Look in the `router`folder to get an overview.
 
 # Get started
 
