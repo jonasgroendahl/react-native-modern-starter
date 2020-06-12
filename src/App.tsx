@@ -1,6 +1,6 @@
 import React from 'react';
 import 'react-native-gesture-handler';
-import Navigation from './router/_modal_drawer_navigator/Navigation';
+import Navigation from './router/Navigation';
 import {ThemeProvider} from 'react-native-paper';
 import {RootContextProvider} from './context/RootContext';
 import {LanguageProvider} from './context/LanguageContext';

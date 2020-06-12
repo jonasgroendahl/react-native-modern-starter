@@ -6,7 +6,6 @@ import Profile from '../../screens/Profile';
 import Welcome from '../../screens/Welcome';
 import SignUp from '../../screens/SignUp';
 import SignIn from '../../screens/SignIn';
-import {baseFont} from '../../components/Typography';
 import Colors from '../../utils/Colors';
 import Icon from 'react-native-vector-icons/AntDesign';
 
@@ -29,9 +28,7 @@ export const MainStack = () => {
   return (
     <StackNavigator.Navigator
       screenOptions={{
-        headerTitleStyle: {
-          fontFamily: baseFont,
-        },
+        headerTitleStyle: {},
       }}>
       <StackNavigator.Screen component={TabNavigation} name="Home" />
       <StackNavigator.Screen
@@ -64,9 +61,6 @@ const TabNavigation = () => (
     tabBarOptions={{
       activeTintColor: Colors.brandPrimary,
       inactiveTintColor: 'gray',
-      labelStyle: {
-        fontFamily: baseFont,
-      },
     }}>
     <Tabs.Screen name="Home" component={Home} />
     <Tabs.Screen name="Profile" component={Profile} />
