@@ -13,6 +13,15 @@ This is a starter kit for those experienced React Native developers who is looki
 - Welcome, SignIn, SignUp screen, Home, Profile screens
 - Third party packages such as `react-native-image-picker`, `async-storage`, `react-native-vector-icons` that is used in most projects
 
+# Navigation
+There are 2 options for navigation depending on your use case:
+1) A basic setup with Tabs
+2) More advanced setup with the same as above + modal and drawer
+
+![alt text](https://i.imgur.com/cdoJX88.png "Instructions")
+
+Reference the Navigation.tsx that you'd like to use in `App.tsx` and delete the other one. Look in the `router`folder to get an overview.
+
 # Get started
 
 Run the following commands to get started!
